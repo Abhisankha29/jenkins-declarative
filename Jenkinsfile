@@ -6,9 +6,9 @@ pipeline{
                 echo "Welcome to declarative pipeline build stage"
             }
         }
-        stage("Release"){
+        stage("Deploy"){
             steps{
-                echo "Welcome to declarative pipeline Release stage"
+                echo "Welcome to declarative pipeline Deploy stage"
             }
         }
     }
